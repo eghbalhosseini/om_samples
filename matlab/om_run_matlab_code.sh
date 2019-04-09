@@ -15,5 +15,4 @@
 module add mit/matlab/2018a
 matlab -nodisplay -signelCompThread -r "addpath(genpath('/home/ehoseini/MyCodes/om_samples/')); \
 a=func_matlab_code($SLURM_ARRAY_TASK_ID);\
-end;\
 quit;"
