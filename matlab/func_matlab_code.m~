@@ -1,4 +1,0 @@
-function  [func_output]=func_matlab_code(job_id)
-    func_output=num2str(job_id);
-    print(strjoin({'I am running :', num2str(job_id), 'job'}))
-end

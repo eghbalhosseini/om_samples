@@ -10,7 +10,7 @@
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=ehoseini@mit.edu
 #SBATCH --output=om_run_python_code_%j.out
-#SBATCH --error=om_om_run_python_code_%j.err
+#SBATCH --error=om_run_python_code_%j.err
 
 module add openmind/singularity
 export SINGULARITY_CACHEDIR=/om/user/`whoami`/st/

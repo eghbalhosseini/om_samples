@@ -10,7 +10,7 @@
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=ehoseini@mit.edu
 #SBATCH --output=om_run_matlab_code_%j.out
-#SBATCH --error=om_om_run_matlab_code_%j.err
+#SBATCH --error=om_run_matlab_code_%j.err
 
 module add mit/matlab/2018a
 matlab -nodisplay -signelCompThread -r "addpath(genpath('/home/ehoseini/MyCodes/om_samples/')); \
